@@ -29,14 +29,14 @@ The extension automatically detects and displays all available links associated 
 ### Screenshot
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/a3x-xyz/IWantLinksonYoutubeVideo/refs/heads/main/screenshot.png" alt="screenshot">
+  <img src="https://raw.githubusercontent.com/a3x-xyz/IWantLinksonYoutubeVideo/refs/heads/main/screenshot.png" alt="Screenshot">
 </p>
-<p>Easily find and view YouTube video links directly from any page using the JSON URL feature of this extension.</p>
+<p>Video on YouTube, link exists in the JSON URL.</p>
 <br>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/a3x-xyz/IWantLinksonYoutubeVideo/refs/heads/main/screenshot1.png" alt="screenshot">
+  <img src="https://raw.githubusercontent.com/a3x-xyz/IWantLinksonYoutubeVideo/refs/heads/main/screenshot1.png" alt="Screenshot">
 </p>
-<p>Video found on YouTube, but no link was available in the JSON URL.</p>
+<p>Video on YouTube, but link doesn’t exist in the JSON URL.</p>
 
 ---
 
