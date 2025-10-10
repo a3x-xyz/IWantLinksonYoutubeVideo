@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I Want Links on YouTube Video</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <span id="header-left">
+      <img id="back-icon" src="back.svg" alt="Back" style="width:16px; cursor:pointer; display:none;">
+    </span>
+    <span id="header-title">I Want Links on YouTube Video</span>
+    <span id="header-right">
+      <img id="settings" src="settings.svg" alt="Settings" style="cursor:pointer;">
+    </span>
+  </header>
+
+  <main>
+    <!-- Home View -->
+    <div id="home-view" class="view show">
+      Loading...
+    </div>
+
+    <!-- Settings View -->
+    <div id="settings-view" class="view">
+      <label for="json-name">JSON Name:</label>
+      <input type="text" id="json-name" placeholder="Enter a name">
+
+      <label for="json-url">JSON URL:</label>
+      <input type="text" id="json-url" placeholder="Enter JSON URL">
+
+      <button id="add-json">Add JSON</button>
+
+      <!-- JSON List -->
+      <div id="json-list"></div>
+
+      <button id="save-json">Save</button>
+    </div>
+  </main>
+
+  <footer>
+    Made with ❤️ for YouTube users<p>
+    <a href="https://github.com/a3x-xyz/IWantLinksonYoutubeVideo" target="_blank">Open Source</a>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

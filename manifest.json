@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "I Want Links on YouTube Video",
+  "version": "1.0",
+  "description": "Find and view links for YouTube videos directly from this extension.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "main.png",
+      "48": "main.png",
+      "128": "main.png"
+    }
+  },
+  "icons": {
+    "16": "main.png",
+    "48": "main.png",
+    "128": "main.png"
+  },
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://*/*", "http://*/*"]
+}
