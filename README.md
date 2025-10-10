@@ -48,16 +48,7 @@ The extension may show different messages based on the current page or video sta
 |----------|----------|
 | **You're not visiting YouTube!** | The extension only works on YouTube. Open a YouTube video page to use it. |
 | **No found video.** | No video was detected on the current YouTube page, or if a video exists, the link didn’t exist in the JSON URL source. |
-| **Found video!** | A YouTube video has been successfully detected and is ready for link extraction. |
-
----
-
-### Features
-
-- Free and open source  
-- Works directly on YouTube pages  
-- Clean and simple interface  
-- Fast link detection  
+| **Found video!** | A YouTube video has been successfully detected and is ready for link extraction. | 
 
 ---
 
