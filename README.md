@@ -47,7 +47,7 @@ The extension may show different messages based on the current page or video sta
 | Message | Meaning |
 |----------|----------|
 | **You're not visiting YouTube!** | The extension only works on YouTube. Open a YouTube video page to use it. |
-| **No found video.** | No video was detected on the current YouTube page, or the extension couldn’t find the video in the JSON URL source. |
+| **No found video.** | No video was detected on the current YouTube page, or if a video exists, the link didn’t exist in the JSON URL source. |
 | **Found video!** | A YouTube video has been successfully detected and is ready for link extraction. |
 
 ---
