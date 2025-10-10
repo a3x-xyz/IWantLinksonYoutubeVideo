@@ -6,16 +6,17 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "main.png",
-      "48": "main.png",
-      "128": "main.png"
+      "16": "main-16.png",
+      "48": "main-48.png",
+      "128": "main-128.png"
     }
   },
   "icons": {
-    "16": "main.png",
-    "48": "main.png",
-    "128": "main.png"
+    "16": "main-16.png",
+    "48": "main-48.png",
+    "128": "main-128.png"
   },
   "permissions": ["storage", "tabs"],
   "host_permissions": ["https://*/*", "http://*/*"]
 }
+
