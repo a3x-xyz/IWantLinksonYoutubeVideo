@@ -58,3 +58,9 @@ The extension may show different messages based on the current page or video sta
 This project is licensed under the **GNU General Public License v3.0 (GPLv3)**.  
 You are free to use, modify, and redistribute this software under the same license.  
 See the [LICENSE](./LICENSE) file for details.
+
+---
+
+### Donate
+If you'd like to support the project, please visit:  
+https://a3x.xyz/donate
