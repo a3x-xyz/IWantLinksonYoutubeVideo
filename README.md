@@ -26,6 +26,14 @@ The extension automatically detects and displays all available links associated 
 
 ---
 
+### Screenshot
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/a3x-xyz/IWantLinksonYoutubeVideo/refs/heads/main/screenshot.png" alt="screenshot">
+</p>
+
+---
+
 ### Message Meanings
 
 The extension may show different messages based on the current page or video status:
