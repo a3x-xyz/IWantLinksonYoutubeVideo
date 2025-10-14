@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let jsonUrls = [];
   let videoData = {};
 
-  // ---- View switching ----
   settingsIcon.addEventListener('click', () => {
     homeView.classList.remove('show');
     settingsView.classList.add('show');
@@ -34,12 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
     loadHome();
   });
 
-  // ---- Load saved URLs ----
   chrome.storage.sync.get(['jsonUrls'], ({jsonUrls: saved}) => {
     if (!saved) jsonUrls = [];
     else jsonUrls = saved;
 
-    // Ensure official JSON is always first
     if (!jsonUrls.find(j => j.url === OFFICIAL_JSON.url)) {
       jsonUrls.unshift(OFFICIAL_JSON);
       chrome.storage.sync.set({jsonUrls});
@@ -49,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
     loadAllJsonData();
   });
 
-  // ---- Update JSON list UI ----
   function updateJsonList() {
     jsonListDiv.innerHTML = '';
     if (jsonUrls.length === 0) {
@@ -80,7 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ---- Add JSON URL ----
   addJsonBtn.addEventListener('click', () => {
     const name = jsonNameInput.value.trim();
     const url = jsonInput.value.trim();
@@ -96,14 +91,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // ---- Save manually ----
   saveJsonBtn.addEventListener('click', () => {
     chrome.storage.sync.set({jsonUrls}, () => {
       alert('JSON saved!');
     });
   });
 
-  // ---- Load JSON Data ----
   function loadAllJsonData() {
     videoData = {};
     jsonUrls.forEach(item => {
@@ -117,7 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ---- Home view ----
   function loadHome() {
     homeView.innerHTML = 'Loading...';
     chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
@@ -148,6 +140,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Initial load
   loadHome();
 });
+
