@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const jsonListDiv = document.getElementById('json-list');
   const saveJsonBtn = document.getElementById('save-json');
 
-  const OFFICIAL_JSON = { name: "A3X", url: "https://iwantlinksonyoutubevideo.a3x.xyz/index.json", official: true };
+  const OFFICIAL_JSON = { name: "A3X", url: "https://iwantlinksonyoutubevideo.pages.dev/index.json", official: true };
 
   let jsonUrls = [];
   let videoData = {};
@@ -142,4 +142,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   loadHome();
 });
+
 
